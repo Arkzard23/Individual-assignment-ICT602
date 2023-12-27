@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/about"
+    android:gravity="center_horizontal">
+
+    <!-- Add your circular image here -->
+    <ImageView
+        android:layout_width="236dp"
+        android:layout_height="236dp"
+        android:layout_gravity="center"
+        android:contentDescription="Your image description"
+        android:src="@drawable/profile" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEVELOP BY"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp" />
+
+    <!-- Add your name, student number, and program code vertically -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAME: MUHAMMAD NUR A'ZAT BIN AMINURRASHID"
+        android:background="@drawable/border"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STUDENT NUMBER: 2021610074"
+        android:background="@drawable/border"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROGRAMME CODE: CS240"
+        android:background="@drawable/border"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="2023 Azat's Sdn Bhd. All rights reserved"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="This application are use to calculate your electricity bill."
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/urlTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="SOURCE CODE"
+        android:textSize="30sp"
+        android:textColor="#9BAEF5" />
+
+</LinearLayout>
