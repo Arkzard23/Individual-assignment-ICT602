@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background2">
+
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ELECTRICITY BILL CALCULATOR"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/unitsEditText"
+        android:layout_width="371dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="503dp"
+        android:hint="Enter units"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/rebateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignStart="@+id/unitsEditText"
+        android:layout_alignTop="@+id/unitsEditText"
+        android:layout_alignEnd="@+id/unitsEditText"
+        android:layout_alignBottom="@+id/unitsEditText"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-91dp"
+        android:hint="Enter rebate percentage"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rebateEditText"
+        android:layout_alignStart="@+id/rebateEditText"
+        android:layout_alignEnd="@+id/rebateEditText"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="243dp"
+        android:layout_marginEnd="-1dp"
+        android:text="Calculate"
+        android:background="#0134BB" />
+
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignStart="@+id/rebateEditText"
+        android:layout_alignTop="@+id/rebateEditText"
+        android:layout_alignEnd="@+id/rebateEditText"
+        android:layout_alignBottom="@+id/rebateEditText"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="-74dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/aboutButton"
+        android:layout_width="267dp"
+        android:layout_height="60dp"
+
+        android:layout_alignStart="@+id/calculateButton"
+        android:layout_alignTop="@+id/calculateButton"
+        android:layout_alignEnd="@+id/calculateButton"
+        android:layout_alignBottom="@+id/calculateButton"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="-103dp"
+        android:text="About" />
+
+</RelativeLayout>
