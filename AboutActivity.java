@@ -32,7 +32,7 @@ public class AboutActivity extends AppCompatActivity {
             @Override
             public void onClick(View widget) {
 
-                String githubUrl = "https://ufuture.uitm.edu.my/home/";
+                String githubUrl = "https://github.com/Arkzard23/Individual-assignment-ICT602";
 
 
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(githubUrl));
